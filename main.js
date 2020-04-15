@@ -68,7 +68,7 @@
 
         home.appendChild(title);
 
-        fetch("https://me-api.jsramverk.me")
+        fetch("https://me-api.jsramverk.se")
         .then(function(response) {
             return response.json();
         })
@@ -94,7 +94,7 @@
 
         about.appendChild(title);
 
-        fetch("https://me-api.jsramverk.me/reports/" + kmom)
+        fetch("https://me-api.jsramverk.se/reports/" + kmom)
         .then(function(response) {
             return response.json();
         })
